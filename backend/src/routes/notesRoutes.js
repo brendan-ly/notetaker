@@ -3,10 +3,6 @@ import { getAllNotes, getNoteById, createNote, updateNote, deleteNote } from "..
 
 const router = express.Router();
 
-// app.get("/api/notes", (req, res) => {
-//   res.send("you got 50 notes");
-// });
-
 // controllers 
 router.get("/", getAllNotes); 
 router.get("/:id", getNoteById);
